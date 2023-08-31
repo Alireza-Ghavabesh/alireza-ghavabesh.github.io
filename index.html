@@ -6,8 +6,29 @@
     <title>Portfolio</title>
     <link rel="stylesheet" href="./style.css">
     <link href="https://db.onlinewebfonts.com/c/7670a24b3ac4c4ac3277bbcb961c7473?family=Heebo+Regular" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+              }
+            }
+          }
+        }
+      </script>
+      <style type="text/tailwindcss">
+        @layer utilities {
+          .content-auto {
+            content-visibility: auto;
+          }
+        }
+      </style>
 </head>
     <body>
-        
+        <div class="flex flex-row justify-content h-screen items-center">
+            <h1>ALIREZA</h1>
+        </div>
     </body>
 </html>
