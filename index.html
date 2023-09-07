@@ -1,34 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
-    <link rel="stylesheet" href="./style.css">
-    <link href="https://db.onlinewebfonts.com/c/7670a24b3ac4c4ac3277bbcb961c7473?family=Heebo+Regular" rel="stylesheet">
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-        tailwind.config = {
-          theme: {
-            extend: {
-              colors: {
-                clifford: '#da373d',
-              }
-            }
-          }
-        }
-      </script>
-      <style type="text/tailwindcss">
-        @layer utilities {
-          .content-auto {
-            content-visibility: auto;
-          }
-        }
-      </style>
-</head>
-    <body>
-        <div class="flex flex-row justify-content h-screen items-center">
-            <h1>ALIREZA</h1>
-        </div>
-    </body>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body class="flex flex-col gap-2 p-2 h-screen">
+    <div class="flex flex-row h-1/4 bg-yellow-600 rounded-md">
+      <div class="w-2/3"></div>
+      <div class="w-1/3 flex flex-row justify-eend items-center">
+        <img
+          class="rounded-full h-5/6 border-blue-700 border-4"
+          src="https://avatars.githubusercontent.com/u/58913940?v=4"
+          alt=""
+        />
+      </div>
+    </div>
+    <div
+      class="flex flex-row justify-center h-2/4 items-center bg-lime-600 rounded-md"
+    >
+      main
+    </div>
+    <div
+      class="flex flex-row justify-center h-1/4 items-center bg-blue-400 rounded-md"
+    >
+      footer
+    </div>
+  </body>
 </html>
