@@ -1,2 +1,2 @@
 # portfolio
-my practice for convert figma template to frontend code.
+I'm alireza ghavabesh i'm an fullstack developer XD
