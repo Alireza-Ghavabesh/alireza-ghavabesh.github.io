@@ -1,6 +1,6 @@
 import React from 'react';
 import type { Project, SocialLink } from './types';
-import { GithubIcon, InstagramIcon, MailIcon, PhoneIcon, TelegramIcon } from './components/Icons';
+import { GithubIcon, LinkedInIcon, MailIcon, PhoneIcon, TelegramIcon } from './components/Icons';
 
 export const PROJECTS: Project[] = [
   {
@@ -45,31 +45,32 @@ export const SOCIAL_LINKS: SocialLink[] = [
   {
     id: 'github',
     name: 'GitHub',
-    url: 'https://github.com/example',
+    url: 'https://github.com/alireza-ghavabesh',
     icon: <GithubIcon />,
   },
   {
     id: 'telegram',
     name: 'Telegram',
-    url: 'https://t.me/example',
+    url: 'https://t.me/alirezaGhavabesh',
     icon: <TelegramIcon />,
   },
   {
     id: 'instagram',
     name: 'Instagram',
-    url: 'https://instagram.com/example',
-    icon: <InstagramIcon />,
+    url: 'https://www.linkedin.com/in/alireza-ghavabesh-0361751a7/',
+    icon: <LinkedInIcon />,
   },
   {
     id: 'phone',
     name: 'Mobile',
-    url: 'tel:+1234567890',
+    url: 'tel:+989332868434',
     icon: <PhoneIcon />,
   },
   {
     id: 'email',
     name: 'Email',
-    url: 'mailto:developer@example.com',
+    url: 'mailto:jacobmarcosoliver@gmail.com',
     icon: <MailIcon />,
   },
+  
 ];
