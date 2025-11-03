@@ -1,0 +1,5 @@
+{
+  "name": "Developer Portfolio",
+  "description": "A sleek, single-page portfolio for a full-stack developer to showcase projects and contact information. Built with React, TypeScript, and Tailwind CSS for a modern, responsive experience.",
+  "requestFramePermissions": []
+}

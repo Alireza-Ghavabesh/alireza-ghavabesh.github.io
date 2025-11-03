@@ -1,13 +1,54 @@
-<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><link rel="modulepreload" href="/assets/manifest-521a5d77.js"/><link rel="modulepreload" href="/assets/entry.client-jwgjw02_.js"/><link rel="modulepreload" href="/assets/chunk-PVWAREVJ-Bw4NTJk8.js"/><link rel="modulepreload" href="/assets/root-Cy8gW2Ux.js"/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous"/><link rel="stylesheet" href="/assets/root-NYGjNEqo.css"/><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&amp;display=swap"/></head><body><script>
-              console.log(
-                "💿 Hey developer 👋. You can provide a way better UX than this " +
-                "when your app is loading JS modules and/or running `clientLoader` " +
-                "functions. Check out https://reactrouter.com/start/framework/route-module#hydratefallback " +
-                "for more information."
-              );
-            </script><script>window.__reactRouterContext = {"basename":"/","future":{"unstable_middleware":false,"unstable_optimizeDeps":false,"unstable_splitRouteModules":false,"unstable_subResourceIntegrity":false,"unstable_viteEnvironmentApi":false},"routeDiscovery":{"mode":"initial"},"ssr":false,"isSpaMode":true};window.__reactRouterContext.stream = new ReadableStream({start(controller){window.__reactRouterContext.streamController = controller;}}).pipeThrough(new TextEncoderStream());</script><script type="module" async="">import "/assets/manifest-521a5d77.js";
-import * as route0 from "/assets/root-Cy8gW2Ux.js";
-  
-  window.__reactRouterRouteModules = {"root":route0};
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Developer Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      /* Custom scrollbar for a more modern look */
+      ::-webkit-scrollbar {
+        width: 8px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #1a202c; /* dark gray */
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #4a5568; /* medium gray */
+        border-radius: 10px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #718096; /* light gray */
+      }
 
-import("/assets/entry.client-jwgjw02_.js");</script><!--$--><script>window.__reactRouterContext.streamController.enqueue("[{\"_1\":2,\"_3\":-5,\"_4\":-5},\"loaderData\",{},\"actionData\",\"errors\"]\n");</script><!--$--><script>window.__reactRouterContext.streamController.close();</script><!--/$--><!--/$--></body></html>
+      /* Add padding to the top of the scroll container to offset for the fixed header */
+      html {
+        scroll-padding-top: 64px; /* Corresponds to header height on small screens */
+      }
+
+      @media (min-width: 768px) {
+        html {
+          scroll-padding-top: 80px; /* Corresponds to header height on larger screens */
+        }
+      }
+    </style>
+<script type="importmap">
+{
+  "imports": {
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "@vitejs/plugin-react": "https://aistudiocdn.com/@vitejs/plugin-react@^5.1.0",
+    "vite": "https://aistudiocdn.com/vite@^7.1.12"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body class="bg-gray-900 text-white font-sans">
+    <div id="root"></div>
+    <script type="module" src="/src/index.tsx"></script>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>
