@@ -1,19 +1,21 @@
 import React from 'react';
 import type { Project, SocialLink } from './types';
 import { GithubIcon, LinkedInIcon, MailIcon, PhoneIcon, TelegramIcon } from './components/Icons';
+import crmImage from './../assets/img/crm.png'
+import fastitem from './../assets/img/fastitem.png'
 
 export const PROJECTS: Project[] = [
   {
     id: 1,
-    name: "E-Commerce Platform",
-    domain: "shop.example.com",
-    imageUrl: "https://picsum.photos/seed/project1/600/400",
+    name: "وب اپلیکیشن مدیریت مشتریان ساده",
+    domain: "developer-AAA.github.io",
+    imageUrl: crmImage,
   },
   {
     id: 2,
-    name: "SaaS Dashboard",
-    domain: "dashboard.example.com",
-    imageUrl: "https://picsum.photos/seed/project2/600/400",
+    name: "وبسایت فست آیتم ولی با تکنولوژی نکست جی اس",
+    domain: "myfastitem.vercel.app",
+    imageUrl: fastitem,
   },
   {
     id: 3,

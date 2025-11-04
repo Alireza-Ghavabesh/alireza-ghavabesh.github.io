@@ -21,8 +21,6 @@ const Header: React.FC = () => {
   return (
     <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled ? 'bg-gray-900/80 backdrop-blur-sm shadow-lg' : 'bg-transparent'}`}>
       <div className="container mx-auto flex justify-between items-center p-4 md:p-6">
-
-
         <nav className='w-full'>
           <ul className="flex space-x-6 justify-between">
             <div className='flex md:gap-7 gap-4'>
@@ -39,7 +37,7 @@ const Header: React.FC = () => {
             </div>
             <li>
               <a href="#home" className="flex gap-2 items-center text-2xl font-bold text-cyan-400 hover:text-cyan-300 transition-colors">
-                <p className='text-nowrap'>Alireza ghavabesh</p>
+                <p className=''>Alireza ghavabesh</p>
                 <img src={me} alt="me" className='w-12 h-12 rounded-full' />
               </a>
             </li>
